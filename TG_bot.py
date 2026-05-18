@@ -257,7 +257,7 @@ async def sim_callback(callback_query: types.CallbackQuery):
             next_id = int(data.split("_")[2])
         except Exception:
             await callback_query.answer()
-            return
+            returns
         sim = next((s for s in SIMULATIONS if s.get('id') == next_id), None)
         if sim:
             await send_simulation_message(callback_query.message.chat.id, sim, reply_to=callback_query.message)

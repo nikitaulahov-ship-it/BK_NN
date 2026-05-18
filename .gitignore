@@ -1,2 +1,12 @@
+*.env
 .env
+
+.agent.md
+
+.json
 *.json
+
+questions.json
+quize.json
+.agent.md
+            
