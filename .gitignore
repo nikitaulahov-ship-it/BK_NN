@@ -2,3 +2,6 @@
 .env
 
 .agent.md
+
+.json
+*.json
