@@ -5,3 +5,7 @@
 
 .json
 *.json
+
+questions.json
+quize.json
+.agent.md
